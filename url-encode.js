@@ -1,6 +1,6 @@
 const urlEncode = function(text) {
   let encoded = "";
-  text = text.trim()
+  text = text.trim();
   for (let i = 0; i < text.length; i++) {
     if (text[i] === " ") {
       encoded += "%20";
