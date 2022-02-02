@@ -1,3 +1,6 @@
+// I realise now that the way I used these 'impure fuctions' is not good form
+// Would do it differently if i were to write this again
+
 const makeCase = function(input, style) {
   const arr1 = ['camel', 'pascal', 'snake', 'kebab', 'title'];
   const arr2 = ['vowel', 'consonant'];
