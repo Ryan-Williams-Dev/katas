@@ -1,5 +1,5 @@
 const urlDecode = function(text) {
-  let resultString = '{"' + decodeURI(text).replace(/=/g, '":"').replace(/&/g, '","') + '"}';
+  let resultString = '{"' + text.replace(/%20/g, ' ').replace(/=/g, '":"').replace(/&/g, '","') + '"}';
   let resultObject = JSON.parse(resultString);
   return resultObject;
 };
