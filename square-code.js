@@ -10,7 +10,7 @@ const squareCode = function(message) {
       }
       returnMsg += tempMsg[j];
     }
-    returnMsg += "\n"  /* Can switch this out for a " " to match the expected output from the challenge definition.
+    returnMsg += "\n";  /* Can switch this out for a " " to match the expected output from the challenge definition.
                           I wasn't sure if it mattered, I just preffered the look of it this way */
   }
 
