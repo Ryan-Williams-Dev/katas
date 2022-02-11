@@ -1,7 +1,7 @@
 let whiteQueen = [2, 1];
 let blackQueen = [5, 4];
 let generatedBoard = generateBoard(whiteQueen, blackQueen);
-console.table(generatedBoard);
+console.log(generatedBoard);
 console.log(queenThreat(generatedBoard));
 
 function generateBoard(wQueen, bQueen) {
